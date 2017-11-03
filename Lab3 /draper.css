@@ -1,0 +1,36 @@
+body { background-color: #FFFFFF;
+      color: #666666;
+}
+header { background-color: #800000;
+       color: #FFFFFF;
+}
+h1 {margin-bottom: 0; 
+} 
+nav { background-color: #FFD700; 
+}
+h2 { color: #3399CC;
+}
+dt { color: #000033; 
+}
+.resort {color: #800000; 
+}	
+#mobile {display: inline;}
+#desktop {display: none;}
+@media only screen and (max-width: 600px) {
+main { padding: 0.1em 1em;
+font-size: 90%;}
+header { padding-top: 1em;}
+h1 { font-size: 1.5em;}
+nav { padding: 0; }
+nav li { display: block;
+		margin: 0;
+		border-bottom: 2px solid #330000;}
+nav a { display: block;}
+#activityimg, #skillsimg, #homeimg {
+background-image: none; height: 0; }
+#mobile { display: inline; }
+#desktop { display: none; }
+label { float: none;
+text-align: left;}
+input[type="submit"] { margin-left: 0; }
+#gallery { display: none; }
